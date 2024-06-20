@@ -1,15 +1,15 @@
 #include<ESP8266WiFi.h> 
 #include<WiFiClient.h> 
 #include<ESP8266HTTPClient.h>
-String URL="http://api.thingspeak.com/update?api_key=BEKMK6C6HMV8NCLO&field1=";
-
+String URL="http://api.thingspeak.com/update?api_key=BEKMK6C6HMV8NCLO&field1="; //upload your ThingsSpeak id
+//Make sure all setup is connected to same wifi Network
 void setup() {
   // put your setup code here, to run once:
   Serial.begin(115200);
   WiFi.disconnect(); 
   delay (2000); 
   Serial.print ("Start connection"); 
-  WiFi.begin("Hanuman ","jaishreeram");
+  WiFi.begin("Hanuman ","jaishreeram");//Name,password
   while ((! (WiFi.status()== WL_CONNECTED))) 
   { 
     delay(200);
