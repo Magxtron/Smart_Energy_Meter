@@ -1,25 +1,42 @@
-[![MasterHead](https://user-images.githubusercontent.com/10498744/210012254-234538ff-d198-48aa-8964-37e6fd45d227.gif)]()
-<h1 align="center">Hi 👋, I'm Manthan Gujar</h1>
-<h3 align="center">A passionate developer from India</h3>
-<img align="right" alt="Coding" width="400" src="https://media4.giphy.com/media/gijRRh2uNdITmPYgye/200w.gif?cid=6c09b9525ayjk6hi2y81f848klil0h8bkycmu0pbzbd34wel&ep=v1_gifs_search&rid=200w.gif&ct=g">
+# Smart Energy Meter
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=magxtron&label=Profile%20views&color=0e75b6&style=flat" alt="magxtron" /> </p>
+Welcome to the Smart Energy Meter project! This repository contains the code and documentation for a smart energy meter system that utilizes Arduino, ESP8266, ThingSpeak platform, ACS712 current sensor, ZMPT101B voltage sensor, and a LiquidCrystal LCD. The project aims to measure and monitor energy consumption in real-time, providing users with detailed insights through a cloud-based dashboard.
 
-- 🌱 I’m currently learning **Java,Devops**
+## Features
 
-- 📫 How to reach me **manthangujar00@gmail.com**
+- **Real-time Energy Monitoring**: Measure voltage, current, and power consumption in real-time.
+- **Wireless Data Transmission**: Send data to the cloud using the ESP8266 Wi-Fi module.
+- **Cloud Integration**: Store and visualize data on the ThingSpeak platform.
+- **Local Display**: Display real-time measurements on a LiquidCrystal LCD.
+- **Control Loads**: Monitor and control a bulb to demonstrate energy usage.
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://instagram.com/manthan_gujar." target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/instagram.svg" alt="manthan_gujar." height="30" width="40" /></a>
-</p>
+## Components
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.java.com" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="java" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.mysql.com/" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg" alt="mysql" width="40" height="40"/> </a> <a href="https://www.python.org" target="_blank" rel="noreferrer"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="python" width="40" height="40"/> </a> </p>
+- **Arduino**: Microcontroller for data acquisition.
+- **ESP8266**: Wi-Fi module for wireless communication.
+- **ThingSpeak**: Cloud platform for data storage and visualization.
+- **ACS712**: Current sensor for measuring current.
+- **ZMPT101B**: Voltage sensor for measuring voltage.
+- **LiquidCrystal LCD**: Display module for showing real-time data.
+- **Bulb**: Demonstrative load to measure energy consumption.
 
-<p><img align="left" src="https://github-readme-stats.vercel.app/api/top-langs?username=magxtron&show_icons=true&locale=en&layout=compact" alt="magxtron" /></p>
+## Getting Started
 
-<p>&nbsp;<img align="center" src="https://github-readme-stats.vercel.app/api?username=magxtron&show_icons=true&locale=en" alt="magxtron" /></p>
+### Prerequisites
 
-<p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=magxtron&" alt="magxtron" /></p>
+- **Hardware**: 
+  - Arduino (e.g., Arduino Uno)
+  - ESP8266 Wi-Fi module
+  - ACS712 current sensor
+  - ZMPT101B voltage sensor
+  - LiquidCrystal LCD
+  - Bulb
+  - Breadboard and jumper wires
 
+- **Software**:
+  - Arduino IDE
+  - ThingSpeak account
+  
+![image](https://github.com/Magxtron/Smart_Energy_Meter/assets/157964593/90c55395-e729-4fa4-ae6f-824bf3b29b3d)
+
+![image](https://github.com/Magxtron/Smart_Energy_Meter/assets/157964593/62e52bf0-6ed0-44b8-b98b-1ac521e158d8)
